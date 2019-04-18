@@ -3,7 +3,12 @@ import { less } from '@stencil/less';
 export const config: Config = {
   namespace: 'Alita',
   plugins: [
-    less()
+    less({
+      injectGlobalPaths: [
+        'src/css/index.less',
+        'src/css/mixins/index.less'
+      ]
+    })
   ],
   outputTargets: [
     { type: 'dist' },
