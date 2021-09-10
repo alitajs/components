@@ -1,0 +1,19 @@
+{
+  "packages": ["packages/*"],
+  "useWorkspaces": true,
+  "version": "independent",
+  "npmClient": "yarn",
+  "independent": true,
+  "registry": "https://registry.npmjs.org/",
+  "command": {
+    "version": {
+      "exact": true
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): publish",
+      "allowBranch": "main"
+    }
+  },
+  "ignoreChanges": ["**/*.md", "**/*.test.ts", "**/*.e2e.ts", "**/fixtures/**", "**/test/**"]
+}

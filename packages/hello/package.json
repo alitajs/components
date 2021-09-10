@@ -1,0 +1,27 @@
+{
+  "name": "@alita/hello",
+  "version": "0.0.1",
+  "description": "alita components hello",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/src/index.d.ts",
+  "typings": "dist/src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alitajs/components.git"
+  },
+  "authors": [
+    "xiaohuoni <448627663@qq.com> (https://github.com/xiaohuoni)"
+  ],
+  "scripts": {
+    "build": "father-build",
+    "watch": "father-build -w"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=16.8.6"
+  },
+  "dependencies": {
+  }
+}
