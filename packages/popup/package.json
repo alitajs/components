@@ -1,6 +1,6 @@
 {
   "name": "@alita/popup",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "弹出层容器，用于展示弹窗、信息提示等内容。",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
