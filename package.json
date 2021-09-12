@@ -25,7 +25,9 @@
     "react-dom": "^17.0.1",
     "stylelint": "^13.13.1",
     "typescript": "^4.1.3",
-    "yorkie": "^2.0.0"
+    "yorkie": "^2.0.0",
+    "dumi": "^1.1.26",
+    "dumi-theme-mobile": "^1.1.9"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -63,8 +65,7 @@
     "lint:style": "stylelint --fix \"packages/**/*.less\" --syntax less",
     "prettier": "prettier -c --write \"packages/**/*\"",
     "publish": "lerna publish",
-    "start:app": "cross-env APP_ROOT=packages/app alita dev",
-    "start:yh": "cd packages/yinhu && yarn run start",
+    "start": "dumi dev",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
     "tsc": "tsc --noEmit"

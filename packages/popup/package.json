@@ -1,0 +1,38 @@
+{
+  "name": "@alita/popup",
+  "version": "0.0.1",
+  "description": "弹出层容器，用于展示弹窗、信息提示等内容。",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/src/index.d.ts",
+  "typings": "dist/src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alitajs/components.git"
+  },
+  "authors": [
+    "xiaohuoni <448627663@qq.com> (https://github.com/xiaohuoni)",
+    "LimMem <1270253618@qq.com> (https://github.com/LimMem)"
+  ],
+  "scripts": {
+    "build": "father-build",
+    "watch": "father-build -w",
+    "start": "dumi dev"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=16.8.6",
+    "react-dom": ">=16.14.0"
+  },
+  "dependencies": {
+    "ahooks": "^2.9.6",
+    "antd-mobile": "^2.3.4",
+    "dom-helpers": "^5.2.1",
+    "react-transition-group": "^4.4.2",
+    "classnames": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/react-transition-group": "^4.4.2"
+  }
+}
