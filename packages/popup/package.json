@@ -1,6 +1,6 @@
 {
   "name": "@alita/popup",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "弹出层容器，用于展示弹窗、信息提示等内容。",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -28,9 +28,9 @@
   "dependencies": {
     "ahooks": "^2.9.6",
     "antd-mobile": "^2.3.4",
+    "classnames": "^2.2.1",
     "dom-helpers": "^5.2.1",
-    "react-transition-group": "^4.4.2",
-    "classnames": "^2.2.1"
+    "react-transition-group": "^4.4.2"
   },
   "devDependencies": {
     "@types/react-transition-group": "^4.4.2"
