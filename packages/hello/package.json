@@ -21,5 +21,6 @@
   "license": "ISC",
   "peerDependencies": {
     "react": ">=16.8.6"
-  }
+  },
+  "gitHead": "b313f6edc726d47eb27754e3797261b056e3696b"
 }
