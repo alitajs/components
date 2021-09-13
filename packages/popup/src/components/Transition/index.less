@@ -1,0 +1,178 @@
+@import '~antd-mobile/es/style/index.less';
+
+@prefixCls: alita-transition;
+
+.@{prefixCls} {
+  &-wrapper {
+    overflow: scroll;
+  }
+  // 向上
+  &-popup {
+    &-box {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      transform: translateY(0%);
+    }
+    &-enter {
+      transform: translateY(100%);
+      &-active {
+        transform: translateY(0%);
+        transition: transform 200ms ease-in;
+      }
+    }
+
+    &-exit {
+      transform: translateY(0%);
+      &-active {
+        transform: translateY(100%);
+        transition: transform 200ms ease-in;
+      }
+    }
+  }
+
+  &-dropdown {
+    &-box {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      transform: translateY(0%);
+    }
+    &-enter {
+      transform: translateY(-100%);
+      &-active {
+        transform: translateY(0%);
+        transition: transform 200ms ease-in;
+      }
+    }
+
+    &-exit {
+      transform: translateY(0%);
+      &-active {
+        transform: translateY(-100%);
+        transition: transform 200ms ease-in;
+      }
+    }
+  }
+
+  &-sliderleft {
+    &-box {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      transform: translateX(0%);
+    }
+    &-enter {
+      transform: translateX(-100%);
+      &-active {
+        transform: translateX(0%);
+        transition: transform 200ms ease-in;
+      }
+    }
+
+    &-exit {
+      transform: translateX(0%);
+      &-active {
+        transform: translateX(-100%);
+        transition: transform 200ms ease-in;
+      }
+      &-done {
+        // transform: translateX(-100%);
+      }
+    }
+  }
+
+  &-sliderright {
+    &-box {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      transform: translateX(0%);
+    }
+    &-enter {
+      transform: translateX(100%);
+      &-active {
+        transform: translateX(0%);
+        transition: transform 200ms ease-in;
+      }
+    }
+
+    &-exit {
+      transform: translateX(0%);
+      &-active {
+        transform: translateX(100%);
+        transition: transform 200ms ease-in;
+      }
+    }
+  }
+
+  &-alert {
+    &-box {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(1, 1);
+      opacity: 1;
+    }
+    &-enter {
+      transform: translate(-50%, -50%) scale(0.5, 0.5);
+      opacity: 0.8;
+      &-active {
+        transform: translate(-50%, -50%) scale(1, 1);
+        opacity: 0.8;
+        transition: transform 200ms ease-in;
+      }
+    }
+
+    &-exit {
+      transform: translate(-50%, -50%) scale(1, 1);
+      opacity: 1;
+      &-active {
+        transform: translate(-50%, -50%) scale(0.5, 0.5);
+        opacity: 0.8;
+        transition: transform 200ms ease-in;
+      }
+    }
+  }
+
+  &-overlay {
+    &-box {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: none;
+      background-color: #000;
+      opacity: 0;
+    }
+    &-enter {
+      display: block;
+      &-active {
+        display: block;
+        opacity: 0.2;
+      }
+      &-done {
+        display: block;
+        opacity: 0.3;
+      }
+    }
+
+    &-exit {
+      display: block;
+      opacity: 0.3;
+      &-active {
+        display: block;
+        opacity: 0.2;
+      }
+      &-done {
+        display: none;
+        opacity: 0;
+      }
+    }
+  }
+}
