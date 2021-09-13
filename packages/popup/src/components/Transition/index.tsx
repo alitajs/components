@@ -1,5 +1,5 @@
 import type { FC, CSSProperties } from 'react';
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import CSSTransition from 'react-transition-group/CSSTransition';
 import classnames from 'classnames';
 import './index.less';
