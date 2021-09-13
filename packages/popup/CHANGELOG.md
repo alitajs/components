@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/alitajs/components/compare/@alita/popup@0.2.0...@alita/popup@0.2.1) (2021-09-13)
+
+
+### Bug Fixes
+
+* warning ([85d3d22](https://github.com/alitajs/components/commit/85d3d22cd4209221c7a913d778dbe7e0089ff9f0))
+
+
+
+
+
 # [0.2.0](https://github.com/alitajs/components/compare/@alita/popup@0.0.5...@alita/popup@0.2.0) (2021-09-13)
 
 
