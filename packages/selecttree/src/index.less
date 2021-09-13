@@ -1,0 +1,118 @@
+@import '~antd-mobile/es/style/index.less';
+@import '~swiper/swiper.less';
+
+.select-tree {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+}
+
+.select-tree-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 48 * @hd;
+  &-title {
+    flex: 1;
+    padding-left: 15 * @hd;
+    color: #323233;
+    font-weight: 500;
+    font-size: 16 * @hd;
+  }
+  &-ok {
+    padding: 0 15 * @hd;
+    font-size: 14 * @hd;
+  }
+}
+
+.tree-panel {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 0;
+  &-container {
+    flex: 1;
+    height: 0;
+    overflow: auto;
+  }
+}
+
+.tree-nav {
+  padding-right: 6 * @hd;
+  padding-left: 6 * @hd;
+  background-color: #fff;
+
+  &-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 48 * @hd;
+    padding-bottom: 15 * @hd;
+    overflow-x: auto;
+    overflow-y: hidden;
+    user-select: none;
+  }
+  &-item {
+    padding: 0 10 * @hd;
+    color: #323233;
+    font-weight: 500;
+    font-size: 14 * @hd;
+    line-height: 20 * @hd;
+    cursor: pointer;
+  }
+  &-unselected {
+    color: #969799;
+    font-weight: normal;
+  }
+
+  &-line {
+    position: absolute;
+    bottom: 15 * @hd;
+    left: 0;
+    z-index: 1;
+    width: 40 * @hd;
+    height: 3 * @hd;
+    border-radius: 3 * @hd;
+    transition: all 0.2s ease-in;
+  }
+}
+
+.tree-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10 * @hd 16 * @hd;
+  background-color: #fff;
+  cursor: pointer;
+  &-title {
+    flex: 1;
+    color: #323233;
+    font-size: 14 * @hd;
+    line-height: 20 * @hd;
+  }
+  &-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    i {
+      display: inline-block;
+      width: 20 * @hd;
+      height: 20 * @hd;
+      margin-right: 10 * @hd;
+      color: #1989fa;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100% 100%;
+    }
+    i&-right {
+      width: 14 * @hd;
+      height: 14 * @hd;
+      margin-right: 0;
+    }
+  }
+
+  &-selected {
+    color: #1989fa;
+  }
+}
