@@ -1,6 +1,6 @@
 {
   "name": "@alita/selecttree",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "基于react的一款移动端树状选择组件。",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

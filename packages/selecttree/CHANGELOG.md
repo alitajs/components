@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.1.0 (2021-09-13)
+
+
+### Features
+
+* add @alita/popup ([cc0bc56](https://github.com/alitajs/components/commit/cc0bc5647b1c490969b21517beae4b9e1674391d))
+* add SelectTree ([c161ba9](https://github.com/alitajs/components/commit/c161ba96fc44135466d54e14d36f87b45e8fd9b9))
+
+
+
+
+
 ## [0.2.1](https://github.com/alitajs/components/compare/@alita/popup@0.2.0...@alita/popup@0.2.1) (2021-09-13)
 
 
