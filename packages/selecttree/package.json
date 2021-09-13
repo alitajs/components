@@ -1,0 +1,37 @@
+{
+  "name": "@alita/selecttree",
+  "version": "0.0.1",
+  "description": "基于react的一款移动端树状选择组件。",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alitajs/components.git"
+  },
+  "authors": [
+    "LimMem <1270253618@qq.com> (https://github.com/LimMem)"
+  ],
+  "scripts": {
+    "build": "father-build",
+    "watch": "father-build -w",
+    "start": "dumi dev"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=16.8.6",
+    "react-dom": ">=16.14.0"
+  },
+  "dependencies": {
+    "antd-mobile": "^2.3.4",
+    "classnames": "^2.2.1",
+    "react": "^16.12.0",
+    "swiper": "6.8.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "faf5de7a8ca860a4efe0e3512baa0cc326a88ddd"
+}
