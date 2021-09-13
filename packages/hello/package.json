@@ -1,6 +1,6 @@
 {
   "name": "@alita/hello",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "description": "alita components hello",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
