@@ -25,6 +25,7 @@
     "react-dom": ">=16.14.0"
   },
   "dependencies": {
+    "@alita/popup": "^0.2.2",
     "antd-mobile": "^2.3.4",
     "classnames": "^2.2.1",
     "react": "^16.12.0",
