@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/alitajs/components/compare/@alita/popup@0.0.5...@alita/popup@0.2.0) (2021-09-13)
+
+
+### Bug Fixes
+
+* less warning ([b99d817](https://github.com/alitajs/components/commit/b99d817040b2738ed4eb6346732d02a1f876f7f2))
+
+
+### Features
+
+* add bootstrap ([18d1599](https://github.com/alitajs/components/commit/18d1599f104ba819d9e4aeafce08b999ee3f278b))
+
+
+
+
+
 # [0.1.0](https://github.com/alitajs/components/compare/@alita/popup@0.0.5...@alita/popup@0.1.0) (2021-09-13)
 
 
