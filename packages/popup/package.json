@@ -11,7 +11,6 @@
     "url": "git+https://github.com/alitajs/components.git"
   },
   "authors": [
-    "xiaohuoni <448627663@qq.com> (https://github.com/xiaohuoni)",
     "LimMem <1270253618@qq.com> (https://github.com/LimMem)"
   ],
   "scripts": {
@@ -34,6 +33,9 @@
   },
   "devDependencies": {
     "@types/react-transition-group": "^4.4.2"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "gitHead": "faf5de7a8ca860a4efe0e3512baa0cc326a88ddd"
 }
